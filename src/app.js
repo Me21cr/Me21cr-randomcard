@@ -32,9 +32,9 @@ window.onload = function() {
   let numero1 = numero[Math.floor(Math.random() * numero.length)];
   let simbolo1 = simbolo[Math.floor(Math.random() * simbolo.length)];
 
-  document.querySelector(".letra").innerHTML = numero1;
+  document.querySelector(".letter").innerHTML = numero1;
 
-  document.querySelectorAll(".icono").forEach((elem, index) => {
+  document.querySelectorAll(".icon").forEach((elem, index) => {
     elem.innerHTML = simbolo1.S;
     elem.style.color = simbolo1.C;
   });

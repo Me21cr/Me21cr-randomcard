@@ -1,1 +1,27 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.table {
+  background-color: green;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: wheat;
+  width: 300px;
+  height: 450px;
+  border-radius: 20px;
+}
+.header-card {
+  height: 20%;
+}
+.center-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+}
+.footer-card {
+  transform: rotate(180deg);
+  height: 20%;
+}
